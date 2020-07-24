@@ -10,14 +10,14 @@ function get_qa(){
 	var qobj={
 			"eat":3,
 			"target":{
-				"schema" : "raster",
-				"table"	 : "bentre_noisuy_man",
+				"schema" : "congtrinh",
+				"table"	 : "cong_hientrang_point",
 				"fields" : {
-					"field1":"ingestion",
-					"field2":"the_geom"
+					"field1":"ghichu_ten",
+					"field2":"geom"
 					},
 				"where" : {
-					"location":q
+					"maso_cong":q
 					}
 				}
 			};
